@@ -11,10 +11,10 @@ name_of_ucs_domain_profile              = "UCSX-Demo:"
 
 #Provide the FI details which is in IMM
 #FI Model - UCS-FI-6454 / UCS-FI-64108
-fi_model                                = "UCS-FI-6454"
+fi_model                                = ""
 #Serial Numbers
-serial_number_of_fi-a                   = "FDO251614ZU"
-serial_number_of_fi-b                   = "FDO251614XJ"
+serial_number_of_fi-a                   = ""
+serial_number_of_fi-b                   = ""
 
 
 #Port Policy configuration for all the physical ports of the Fabric Interconnect - A
@@ -110,14 +110,14 @@ correspnding_vsan-fcoe_id_on-fi-b       = 112
 
 
 #Policy to configure the NTP Servers
-list_of_ntp_server                      = ["10.70.136.8"]
+list_of_ntp_server                      = ["10.10.10.10"]
 timezone                                = "Asia/Seoul"
 
 
 
 #Update DNS settings
-preferred_ipv4_dns_server               = "10.70.136.9"
-alternate_ipv4_dns_server               = "64.104.76.247"
+preferred_ipv4_dns_server               = "10.10.10.11"
+alternate_ipv4_dns_server               = "10.10.10.12"
 
 
 
