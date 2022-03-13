@@ -3,7 +3,7 @@ variable "organization_name" {
 }
 
 variable "name_prefix" {
-  default = "GIT1"
+  default = "GIT2"
 }
 
 variable "fi_model" {
