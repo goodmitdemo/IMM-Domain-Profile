@@ -1,20 +1,20 @@
 #Provide the name of Intersight Organization.
-organization_name                       = "default"
+organization_name                       = "CIP"
 
 
 #Provide name to be prefixed for all the policies of Domain Profile
-name_prefix                             = "UCSX-Demo:"
+name_prefix                             = "GIT-Demo"
 
 #Name of UCS Domain Profile
-name_of_ucs_domain_profile              = "UCSX-Demo:"
+name_of_ucs_domain_profile              = "GIT-Demo"
 
 
 #Provide the FI details which is in IMM
 #FI Model - UCS-FI-6454 / UCS-FI-64108
 fi_model                                = "UCS-FI-6454"
 #Serial Numbers
-serial_number_of_fi-a                   = "FDO251614ZU"
-serial_number_of_fi-b                   = "FDO251614XJ"
+serial_number_of_fi-a                   = "FDO252805LX"
+serial_number_of_fi-b                   = "FDO252805HV"
 
 
 #Port Policy configuration for all the physical ports of the Fabric Interconnect - A
